@@ -178,3 +178,95 @@
     border: none;
     cursor: pointer;
 }
+footer{
+    width: 100%;
+    height: 575px;
+    background: var(--Dark-01, #151414);
+}
+.footer-container{
+    display: flex;
+}
+.future{
+    width: 50%;
+    margin: 130px 0  130px 230px;
+}
+.future-heading{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.future-description{
+    width: 480px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.future-email{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+
+}
+.future-phone{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.future-icon{
+    margin: 30px 15px 0 0;
+}
+.subs-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.subaribe{
+    margin-top: 130px;
+}
+#email{
+    margin-top: 30px;
+    width: 325px;
+    height: 15px;
+    flex-shrink: 0;
+    background:#151414;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    padding: 21px;
+    color: var(--Dark-07, #F3F3F3);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subs-button{
+    margin-top: 16px;
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
